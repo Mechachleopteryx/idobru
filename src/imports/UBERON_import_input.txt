@@ -1,0 +1,38 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ido/brucellosis/UBERON_import.owl
+
+[Source ontology]
+UBERON
+
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+http://purl.obolibrary.org/obo/UBERON_0002371 #bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002113
+http://purl.obolibrary.org/obo/UBERON_0000002
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+subClassOf http://purl.obolibrary.org/obo/CARO_0000000 #anotomical entity
+
+http://purl.obolibrary.org/obo/UBERON_0002371 #bone marrow
+subClassOf http://purl.obolibrary.org/obo/CARO_0000000 #anotomical entity
+
+http://purl.obolibrary.org/obo/UBERON_0002113
+subClassOf http://purl.obolibrary.org/obo/CARO_0000000 #anotomical entity
+
+http://purl.obolibrary.org/obo/UBERON_0000002
+subClassOf http://purl.obolibrary.org/obo/CARO_0000000 #anotomical entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term

@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ido/brucellosis/CHEBI_import.owl#"
+     xml:base="&obo;ido/brucellosis/CHEBI_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="&obo;ido/brucellosis/CHEBI_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16108 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16108">
+        <rdfs:label rdf:datatype="&xsd;string">glycerone phosphate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A ketose phosphate that consists of glycerone bearing a single phospho substituent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16113 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16113">
+        <rdfs:label rdf:datatype="&xsd;string">cholesterol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3beta-hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16412 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16412">
+        <rdfs:label rdf:datatype="&xsd;string">lipopolysaccharide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Natural compounds consisting of a trisaccharide repeating unit (two heptose units and octulosonic acid) with oligosaccharide side chains and 3-hydroxytetradecanoic acid units (they are a major constituent of the cell walls of Gram-negative bacteria).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16991">
+        <rdfs:label rdf:datatype="&xsd;string">deoxyribonucleic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33696"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17113 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_17113">
+        <rdfs:label rdf:datatype="&xsd;string">erythritol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The meso-diastereomer of butane-1,2,3,4-tetrol.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18154 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_18154">
+        <rdfs:label rdf:datatype="&xsd;string">polysaccharide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically. This term is commonly used only for those containing more than ten monosaccharide residues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23367">
+        <rdfs:label rdf:datatype="&xsd;string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24410 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24410">
+        <rdfs:label rdf:datatype="&xsd;string">glycosylphosphatidylinositol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33696 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33696">
+        <rdfs:label rdf:datatype="&xsd;string">nucleic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33839"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33839 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33839">
+        <rdfs:label rdf:datatype="&xsd;string">macromolecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36357 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36357">
+        <rdfs:label rdf:datatype="&xsd;string">polyatomic entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any molecular entity consisting of more than one atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36976 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36976">
+        <rdfs:label rdf:datatype="&xsd;string">nucleotide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A nucleotide is a nucleoside phosphate. It is a phosphate ester that has a nucleoside moiety and has at least one phosphate moiety attached to the C-5 carbon of the ribose or deoxyribose moiety.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4705 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_4705">
+        <rdfs:label rdf:datatype="&xsd;string">double-stranded DNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_16991"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_61048 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_61048">
+        <rdfs:label rdf:datatype="&xsd;string">GM1 ganglioside</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A sialotetraosylceramide consisting of a branched pentasaccharide made up from one sialyl residue, two galactose residues, one N-acetylgalactosamine residue and a glucose residue at the reducing end attached to N-stearoylsphingosine via a beta-linkage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64637 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_64637">
+        <rdfs:label rdf:datatype="&xsd;string">O-polysaccharide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_18154"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A repetitive glycan polysaccharide contained within a lipopolysaccharide (LPS). The O-antigen is attached to the core oligosaccharide, and comprises the outermost domain of the LPS molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7754 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_7754">
+        <rdfs:label rdf:datatype="&xsd;string">oligonucleotide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36976"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A nucleobase-containing molecular entity with an oligomeric structure comprised of a linear sequence of nucleotide residues. An oligonucleotide must contain at least 2 nucleotide residues and typically contains fewer than 30.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9160 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_9160">
+        <rdfs:label rdf:datatype="&xsd;string">single-stranded DNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_7754"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

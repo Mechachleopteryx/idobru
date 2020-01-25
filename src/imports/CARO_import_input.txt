@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ido/brucellosis/CARO_import.owl
+
+[Source ontology]
+CARO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CARO_0000000 #anatomical entity
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CARO_0000000 #anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+
+[Source annotation URIs]
+includeAllAxioms

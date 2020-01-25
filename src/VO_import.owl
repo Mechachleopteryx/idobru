@@ -1,0 +1,973 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ido/brucellosis/VO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ido/brucellosis/VO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/brucellosis/VO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111>definition</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110034"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000001">
+        <rdfs:label>vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <obo:IAO_0000115>A vaccine is a processed material with the function that when administered, it prevents or ameliorates a disorder in a target organism by inducing or modifying adaptive immune responses specific to the antigens in the vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000018">
+        <rdfs:label>Brucella abortus DNA vaccine pcDNA-SOD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
+        <obo:IAO_0000115>A Brucella abortus vaccine that expresses Cu/Zn SOD with DNA plasmid pcDNA. PMID: 15039330.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000021">
+        <rdfs:label>Brucella abortus vaccine RB51</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brucella abortus vaccine RB51 is a Brucella abortus vaccine that is licensed in the USA since 1992.</obo:IAO_0000115>
+        <obo:IAO_0000118>Brucella RB-51</obo:IAO_0000118>
+        <obo:IAO_0000118>B. abortus RB51</obo:IAO_0000118>
+        <obo:IAO_0000118>Brucella RB51</obo:IAO_0000118>
+        <obo:IAO_0000118>SRB51</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000022">
+        <rdfs:label>Brucella abortus vaccine strain 19</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000118>Brucella strain-19</obo:IAO_0000118>
+        <obo:IAO_0000118>Brucella S19</obo:IAO_0000118>
+        <obo:IAO_0000115>A live attenuated Brucella abortus vaccine that is licensed and used in many countries.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000025">
+        <rdfs:label>Brucella vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000118>brucellosis vaccine</obo:IAO_0000118>
+        <obo:IAO_0000115>A vaccine that protects against Brucella that causes brucellosis in animals and humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000108">
+        <rdfs:label>Brucella abortus vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000151">
+        <rdfs:label>immunized</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>an organismal quality that indicates an organism (e.g., human) is immunized against a disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000300">
+        <rdfs:label>B. melitensis strain VTRM1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000303">
+        <rdfs:label>Brucella suis strain VTRS1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001136"/>
+        <obo:IAO_0000118>B. suis VTRS1</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000311">
+        <rdfs:label>B. melitensis lipopolysaccharide vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000312">
+        <rdfs:label>B. melitensis LPS-GBOMP noncovalent complex vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
+        <obo:IAO_0000118>B. melitensis LPS-GBOMP subunit vaccine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000321">
+        <rdfs:label>Brucella abortus DNA vaccine encoding BCSP31, SOD and L7/L12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
+        <obo:IAO_0000118>B. abortus DNA vaccine expressing BCSP31, SOD and L7/L12</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000323">
+        <rdfs:label>Brucella abortus conjugate vaccine using L7/L12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000956"/>
+        <obo:IAO_0000118>recombinant B. abortus L7/L12 vaccine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000325">
+        <rdfs:label>B. melitensis DNA vaccine encoding Omp31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000338">
+        <rdfs:label>B. melitensis bp26 deletion vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000118>Brucella CGV26</obo:IAO_0000118>
+        <obo:IAO_0000118>CGV26</obo:IAO_0000118>
+        <obo:IAO_0000115>A B. melitensis vaccine that is recombinant B. melitensis Rev. 1 vaccine with the bp26 deletion. It has similar vaccine efficacy to Rev. 1. Its advantage compared to Rev. 1 is that this feature of bp26 deletion promotes diagnosis. PMID: 17070627.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000345">
+        <rdfs:label>B. melitensis WR201</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000347">
+        <rdfs:label>Brucella abortus bacA mutant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000118>B. abortus bacA mutant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000354">
+        <rdfs:label>B. ovis microparticle subunit vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000358">
+        <rdfs:label>Brucella recombinant SurA protein vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
+        <obo:IAO_0000118>Brucella rSurA protein vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>Brucella recombinant SurA protein</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000373">
+        <rdfs:label>Brucella recombinant DnaK protein vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000374">
+        <rdfs:label>divalent DNA B. abortus vaccine using L7/L12 and Omp16</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000385">
+        <rdfs:label>Brucella abortus DNA vaccine encoding L7/L12 and P39</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
+        <obo:IAO_0000118>B. abortus DNA vaccine encoding L7/L12 and P39</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000386">
+        <rdfs:label>attenuated Brucella abortus with deletion of znuA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000398">
+        <rdfs:label>microencapsulated B. melitensis mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000115>A B. melitensis vaccine that is composed of live Brucella melitensis attenuated mutant delivered using a microsphere delivery system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000403">
+        <rdfs:label>porin-S-LPS from B. abortus strain 2308</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
+        <obo:IAO_0000118>complex of porin and S-LPS from  B. abortus strain 2308</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000404">
+        <rdfs:label>Brucella abortus RB51WboA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000118>B. abortus RB51WboA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000407">
+        <rdfs:label>recombinant O. anthropi 49237SOD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000957"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000411">
+        <rdfs:label>B. melitensis Bp26 and Tf protein vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
+        <obo:IAO_0000118>B. melitensis Bp26 and trigger factor</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000412">
+        <rdfs:label>B. melitensis P39 recombinant protein vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
+        <obo:IAO_0000115>A Brucella subunit vaccine that uses recombinant Brucella melitensis 16M P39, a putative periplasmic binding protein. PMID: 11447155.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000413">
+        <rdfs:label>recombinant chimera BLSOmp31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
+        <obo:IAO_0000118>rBLSOmp31</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000421">
+        <rdfs:label>Brucella abortus pcDNA-BLS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
+        <obo:IAO_0000118>B. abortus pcDNA-BLS</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000423">
+        <rdfs:label>escheriosome-mediated delivery of B. abortus L7/L12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
+        <obo:IAO_0000118>escheriosome-encapsulated B. abortus L7/L12</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000436">
+        <rdfs:label>B. melitensis DNA vaccine encoding Omp31 boosted with Omp31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
+        <obo:IAO_0000118>pCIBLSOmp31</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000450">
+        <rdfs:label>NPAP Brucella vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
+        <obo:IAO_0000118>Brucella vaccine using nonpathogenic alphaproteobacteria</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000457">
+        <rdfs:label>protective antigen role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000151"/>
+        <obo:IAO_0000115>Protective antigen is an antigen that stimulates protective immunity when used in vivo.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000590">
+        <rdfs:label>vaccine preparation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccine production</obo:IAO_0000118>
+        <obo:IAO_0000115>vaccine preparation is a manufacturing process to produce a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000118>vaccine generation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000633">
+        <rdfs:label>B. melitensis Rev. 1 with P39 deletion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000115>A B. melitensis vaccine that is recombinant B. melitensis Rev. 1 vaccine with the p39 gene deletion.</obo:IAO_0000115>
+        <obo:IAO_0000118>B. melitensis Rev. 1 P39 deletion mutant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000709">
+        <rdfs:label>Brucella melitensis vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000710">
+        <rdfs:label>B. melitensis strain Rev. 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000118>Brucella melitensis Rev 1</obo:IAO_0000118>
+        <obo:IAO_0000118>Brucella melitensis Rev. 1</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000720">
+        <rdfs:label>Brucella abortus strain RB51SOD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000118>B. abortus strain RB51SOD</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000721">
+        <rdfs:label>Brucella suis vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
+        <obo:IAO_0000115>a Brucella vaccine against infection wtih B. suis</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000722">
+        <rdfs:label>Brucella suis strain 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001136"/>
+        <obo:IAO_0000118>Brucella suis S2</obo:IAO_0000118>
+        <obo:IAO_0000115>An orally administrable brucellosis vaccine that was was developed in China. It is effective for oral vaccination of sheep, goats, cattle and pigsPMID: 3541425.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000723">
+        <rdfs:label>Brucella abortus strain 45/20</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000118>B. abortus strain 45/20</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000826">
+        <rdfs:label>Brucella abortus S19 with P39 deletion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000115>A B. abortus vaccine that is recombinant B. abortus strain 19 vaccine with the p39 gene deletion.</obo:IAO_0000115>
+        <obo:IAO_0000118>B. abortus S19 P39 deletion mutant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000956">
+        <rdfs:label xml:lang="en">Brucella abortus conjugate vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
+        <obo:IAO_0000115>a B. abortus vaccine that uses a conjugate vaccine format</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000957">
+        <rdfs:label xml:lang="en">Brucella abortus recombinant vector vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
+        <obo:IAO_0000115>a B. abortus vaccine that uses a recombinant vector. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001127">
+        <rdfs:label>live attenuated Brucella vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
+        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella infection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001134">
+        <rdfs:label>live attenuated Brucella abortus vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
+        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella abortus infection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001135">
+        <rdfs:label>live attenuated Brucella melitensis vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
+        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella melitensis infection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001136">
+        <rdfs:label>live attenuated Brucella suis vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000721"/>
+        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella melitensis infection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001144">
+        <rdfs:label>Brucella DNA vaccine encoding chimera BLSOmp31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
+        <obo:IAO_0000118>pCIBLSOmp31</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001154">
+        <rdfs:label>B. abortus HSA-L7/L12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000323"/>
+        <obo:IAO_0000118>Brucella abortus Human serum albumin (HAS)-L7/L12</obo:IAO_0000118>
+        <obo:IAO_0000115>B. abortus L7/L12 is a B. abortus subunit vaccine using L7/L12 that is formed by recombinant Human Serum Albumin (HAS)-L7/L12 fusion protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001171">
+        <rdfs:label>B. melitensis Rev. 1 with bp26 and omp31 deletions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000118>CGV2631</obo:IAO_0000118>
+        <obo:IAO_0000115>B. melitensis bp26 and omp31 deletion vaccine is a Brucella melitensis vaccine that has double deletions of bp26 and omp31.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001172">
+        <rdfs:label>pCIOmp31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000325"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001173">
+        <rdfs:label>pTargeTomp31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000325"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001175">
+        <rdfs:label>B. abortus L7/L12 fused to MBP</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000323"/>
+        <obo:IAO_0000115>B. abortus L7/L12 fused to MBP is a B. abortus subunit vaccine using L7/L12 that uses recombinant L7/L12 fused on maltose binding protein MBP.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001208">
+        <rdfs:label>B. abortus BLS-L7/L12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000323"/>
+        <obo:IAO_0000115>B. abortus BLS-L7/L12 is a B. abortus subunit vaccine using L7/L12 that is made as a recombinant BLS-L7/L12 fusion protein vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000118>recombinant Brucella BLS-L7/L12 fusion protein vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>recombinant Brucella lumazine synthase and L7/L12 fusion protein vaccine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001221">
+        <rdfs:label>Brucella abortus subunit vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001223">
+        <rdfs:label>Brucella melitensis subunit vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001225">
+        <rdfs:label>Brucella abortus DNA vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001226">
+        <rdfs:label>Brucella melitensis DNA vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001232">
+        <rdfs:label>protective antigen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001325">
+        <rdfs:label>Brucella abortus subunit vaccine using Bfr</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
+        <obo:IAO_0000118>recombinant Brucella abortus Bfr protein vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>Brucella BFR antigen vaccine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001326">
+        <rdfs:label>Brucella abortus subunit vaccine using Omp16</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
+        <obo:IAO_0000118>Brucella abortus Omp16 vaccine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001327">
+        <rdfs:label>B. melitensis DNA vaccine encoding Bp26 and Tf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001575">
+        <rdfs:label>Brucella Abortus Strain 19, Live Culture Vaccine (USDA: 1251.01)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000022"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001576">
+        <rdfs:label>Brucella Abortus Strain 19, Live Culture, Reduced Dose Vaccine (USDA: 1251.02)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000022"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001577">
+        <rdfs:label>Brucella Abortus Strain RB-51, Live Culture Vaccine (USDA: 1261.00)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000021"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002810">
+        <rdfs:label>B. abortus and B. melitensis mutants with unmarked deletion of asp24, virB2, or manBA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002812">
+        <rdfs:label>Brucella abortus exsA mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002814">
+        <rdfs:label>B. abortus and B. melitensis mutants with unmarked deletion of asp24, virB2, or manBA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002815">
+        <rdfs:label>B. melitensis mucR mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002816">
+        <rdfs:label>B. melitensis omp25 mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002817">
+        <rdfs:label>B. melitensis omp31 mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002818">
+        <rdfs:label>Brucella abortus pgk mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002819">
+        <rdfs:label>Brucella abortus pgm mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002820">
+        <rdfs:label>B. melitensis WR201 (16MΔpurEK)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002821">
+        <rdfs:label>B. melitensis WR201 (16MΔpurEK)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002822">
+        <rdfs:label>B. abortus and B. melitensis mutants with unmarked deletion of asp24, virB2, or manBA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002824">
+        <rdfs:label>live attenuated B. abortus with deletion of znuA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011380">
+        <rdfs:label>B. abortus DNA vaccine encoding RplL and Omp16</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

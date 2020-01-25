@@ -1,0 +1,54 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ido/brucellosis/NCBITaxon_import.owl
+
+[Source ontology]
+NCBITaxon
+
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_9606 #Homo sapines, human
+http://purl.obolibrary.org/obo/NCBITaxon_9913 #Bos taurus, cattle
+http://purl.obolibrary.org/obo/NCBITaxon_9823 #Sus scrofa, pig
+http://purl.obolibrary.org/obo/NCBITaxon_9925 #Capra hircus, 
+http://purl.obolibrary.org/obo/NCBITaxon_9940 #Ovis aries, sheep
+http://purl.obolibrary.org/obo/NCBITaxon_9615
+http://purl.obolibrary.org/obo/NCBITaxon_9796
+http://purl.obolibrary.org/obo/NCBITaxon_9925
+http://purl.obolibrary.org/obo/NCBITaxon_28211
+http://purl.obolibrary.org/obo/NCBITaxon_234 #Brucella
+includeAllChildren
+http://purl.obolibrary.org/obo/NCBITaxon_9534
+http://purl.obolibrary.org/obo/NCBITaxon_114646
+http://purl.obolibrary.org/obo/NCBITaxon_224914
+http://purl.obolibrary.org/obo/NCBITaxon_235
+http://purl.obolibrary.org/obo/NCBITaxon_29461
+http://purl.obolibrary.org/obo/NCBITaxon_36855
+http://purl.obolibrary.org/obo/NCBITaxon_430066
+http://purl.obolibrary.org/obo/NCBITaxon_10090
+http://purl.obolibrary.org/obo/NCBITaxon_236
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/NCBITaxon_10239 
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/NCBITaxon_2759
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/NCBITaxon_2157 #Archaea
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_234
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

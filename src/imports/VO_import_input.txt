@@ -1,0 +1,48 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ido/brucellosis/VO_import.owl
+
+[Source ontology]
+VO
+
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0000025 #brucella vaccine
+includeAllChildren
+http://purl.obolibrary.org/obo/VO_0001232 #protective antigen
+http://purl.obolibrary.org/obo/VO_0000457 #protective antigen role
+http://purl.obolibrary.org/obo/VO_0000151 #antigen role
+http://purl.obolibrary.org/obo/VO_0000590 #vaccine preparation
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/VO_0000001 #vaccine
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+
+http://purl.obolibrary.org/obo/VO_0001232 #protective antigen
+subClassOf http://purl.obolibrary.org/obo/OBI_1110034 #antigen
+
+http://purl.obolibrary.org/obo/VO_0000151 #antigen role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #Role
+
+http://purl.obolibrary.org/obo/VO_0000457 #protective antigen role
+subClassOf http://purl.obolibrary.org/obo/VO_0000151 #antigen role
+
+http://purl.obolibrary.org/obo/VO_0000590 #vaccine preparation
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+http://purl.obolibrary.org/obo/VO_0000025 #brucella vaccine
+subClassOf http://purl.obolibrary.org/obo/VO_0000001 #vaccine
+
+http://purl.obolibrary.org/obo/VO_0001127 #live attenuated Brucella vaccine
+subClassOf http://purl.obolibrary.org/obo/VO_0000025 #brucella vaccine
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000118

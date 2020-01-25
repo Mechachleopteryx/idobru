@@ -1,0 +1,64 @@
+# This is the template for setting up the Ontorat input conditions. 
+# Any text after # is just for notes and won't be used by Ontorat.
+
+[Online URL of the target OWL file (RDF/XML format)]
+# Note: Local file won't be used by Ontorat for security reason.   
+
+
+[Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
+# Note: Local file won't be used by Ontorat for security reason. 
+
+
+Actual data starts from row: 2
+
+
+[New axioms will be used to]
+# Note: two options: 1. "generate new classes", 
+# or 2. "edit existing classes with term IDs defined in column A(or another letter)"
+edit existing classes with term IDs defined in column K  
+  
+[Annotations]
+# Note: Use comma to separate annotations
+'label' "{$columnQ}",
+'comment' "This protein is a Brucella virulence factor. {$columnS}", 
+'seeAlso' "NCBIGene: {$columnE}", 
+'seeAlso' "NCBIProteinGI: {$columnH}", 
+'seeAlso' "UniProtKB: {$columnI}", 
+'seeAlso' "LocusTag: {$columnN}", 
+'seeAlso' "NCBIProteinAccess:{$columnP}", 
+'comment' "Molecule Role Annotation: {$columnS}", 
+'definition source' "PMID: {$columnT}", 
+'comment' "Gene name: {$columnC}", 
+'seeAlso' "GenBank: {$columnO}"
+
+[Equivalent classes]
+# Note: Use comma to separate classes 
+
+
+[Superclasses]
+# Note: Use comma to separate classes 
+<{$columnL}>,
+'has_gene_template' some <{$columnF}>,
+'bearer of at some time' some 'Brucella virulence factor disposition',
+'only_in_taxon' some <{$columnW}>
+
+[Terms used to define anntoations, equivalent classes and superclasses]
+# Note: One line per term
+AnnotationProperty: 
+Class:
+'Brucella virulence factor disposition': <http://purl.obolibrary.org/obo/IDO_0100116>
+ObjectProperty:
+'has_gene_template': <http://purl.obolibrary.org/obo/pr#has_gene_template>
+'bearer of at some time': <http://purl.obolibrary.org/obo/BFO_0000053>
+'only_in_taxon': <http://purl.obolibrary.org/obo/pr#only_in_taxon>
+DataProperty:
+
+[Term URIs start with]
+# Note: provide a prefix ontology URIs
+
+
+[Auto-generated term ID]
+# Note: Prefix like "VO_", number of digits like "7", and start from like "1".
+Prefix: O_
+Number of digits: 7
+Start from:  1

@@ -1,0 +1,17 @@
+id	IDOBRU
+title	Brucellosis Ontology
+namespace	IDOBRU
+foundry	NO
+status	Production and review
+download	http://svn.code.sf.net/p/idobru/code/trunk/trunk/src/ontology/brucellosis.owl
+source	
+home	Brucellosis Ontology|http://www.phidias.us/bbp/idobru/
+documentation	
+contact	Yongqun Oliver He	yongqunh	med.umich.edu
+format	OWL
+description	A biomedical ontology in the brucellosis domain
+domain	Infectious disease
+subtypes_of	
+patho_type	
+granularity	
+relevant_organism	Brucella

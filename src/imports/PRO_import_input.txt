@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ido/brucellosis/PRO_import.owl
+
+[Source ontology]
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_000000001 #protein
+http://purl.obolibrary.org/obo/PR_000002311 #caspase-2
+http://purl.obolibrary.org/obo/PR_000029044 #Brucella melitensis biovar Abortus 2308 protein
+http://purl.obolibrary.org/obo/PR_000029040 #Brucella melitensis bv. 1 str. 16M protein
+http://purl.obolibrary.org/obo/PR_000029039 #Brucella suis 1330 protein
+http://purl.obolibrary.org/obo/PR_000029041 #Brucella abortus bv. 1 str. 9-941 protein
+http://purl.obolibrary.org/obo/PR_000029049 #Brucella ovis ATCC 25840 protein
+http://purl.obolibrary.org/obo/PR_000029058 #Brucella melitensis ATCC 23457 protein
+http://purl.obolibrary.org/obo/PR_000029054 #Brucella canis ATCC 23365 protein
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PR_000000001 #protein
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAxioms

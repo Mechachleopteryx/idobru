@@ -1,0 +1,94 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ido/brucellosis/GO_import.owl
+
+[Source ontology]
+GO
+
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0002250 #adaptive immune response
+http://purl.obolibrary.org/obo/GO_0006955 #immune response
+http://purl.obolibrary.org/obo/GO_0035635 #entry of bacterium into host cell
+http://purl.obolibrary.org/obo/GO_0051234 #establishment of localization
+http://purl.obolibrary.org/obo/GO_0051649 #establishment of localization in cell
+http://purl.obolibrary.org/obo/GO_0005694 #chromosome
+http://purl.obolibrary.org/obo/GO_0030260 #entry into host cell
+http://purl.obolibrary.org/obo/GO_0008152 #metabolic process
+http://purl.obolibrary.org/obo/GO_0090383 #phagosome acidification
+http://purl.obolibrary.org/obo/GO_0090382 #phagosome maturation
+http://purl.obolibrary.org/obo/GO_0090385 #phagosome-lysosome fusion
+http://purl.obolibrary.org/obo/GO_0000003 #
+http://purl.obolibrary.org/obo/GO_0040007 
+http://purl.obolibrary.org/obo/GO_0051704
+http://purl.obolibrary.org/obo/GO_0065007 #biological regulation
+http://purl.obolibrary.org/obo/GO_0044409
+http://purl.obolibrary.org/obo/GO_0052106 #quorum sensing involved in interaction with host
+http://purl.obolibrary.org/obo/GO_0032991
+http://purl.obolibrary.org/obo/GO_0008219 #cell death
+http://purl.obolibrary.org/obo/GO_0051767 #nitric-oxide synthase biosynthetic process
+http://purl.obolibrary.org/obo/GO_0072593 #reactive oxygen species metabolic process
+http://purl.obolibrary.org/obo/GO_0006890
+http://purl.obolibrary.org/obo/GO_0046907
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/GO_0005694 #chromosome
+subClassOf http://purl.obolibrary.org/obo/IDO_0100117 #genetic material
+http://purl.obolibrary.org/obo/GO_0006955 #immune response
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0030260 #entry into host cell
+subClassOf http://purl.obolibrary.org/obo/GO_0044409 #entry into host
+http://purl.obolibrary.org/obo/GO_0051649 #establishment of localization in cell
+subClassOf http://purl.obolibrary.org/obo/GO_0051234
+http://purl.obolibrary.org/obo/GO_0051234 #establishment of localization
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0044419 #interspecies interaction between organisms
+subClassOf http://purl.obolibrary.org/obo/GO_0051704 #multi-organism process
+http://purl.obolibrary.org/obo/GO_0008152 #metabolic process
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0008033 #tRNA processing
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0090383 #phagosome acidification
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0090382 #phagosome maturation
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0090385 #phagosome-lysosome fusion
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0000003 #
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0040007 
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0051704
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0065007 #biological regulation
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0044409
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+
+http://purl.obolibrary.org/obo/GO_0052106 #quorum sensing involved in interaction with host
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+
+http://purl.obolibrary.org/obo/GO_0032991
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+
+http://purl.obolibrary.org/obo/GO_0008219 #cell death
+subClassOf http://purl.obolibrary.org/obo/GO_0016265
+
+http://purl.obolibrary.org/obo/GO_0051767 #nitric-oxide synthase biosynthetic process
+subClassOf http://purl.obolibrary.org/obo/GO_0008152 #metabolic process
+
+http://purl.obolibrary.org/obo/GO_0072593 #reactive oxygen species metabolic process
+subClassOf http://purl.obolibrary.org/obo/GO_0008152 #metabolic process
+
+http://purl.obolibrary.org/obo/GO_0006890
+subClassOf http://purl.obolibrary.org/obo/GO_0046907
+
+http://purl.obolibrary.org/obo/GO_0046907
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms

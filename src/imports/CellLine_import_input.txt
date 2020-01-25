@@ -1,0 +1,35 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ido/brucellosis/CellLine_import.owl
+
+[Source ontology]
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0003684 #HeLa (CLO)
+http://purl.obolibrary.org/obo/CLO_0009524 #Vero (CLO)
+http://purl.obolibrary.org/obo/CLO_0008753 #RAW264.7 cell
+http://purl.obolibrary.org/obo/CLO_0007003 #J-774
+http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+http://purl.obolibrary.org/obo/CLO_0000129 #immortal epithelial cell line cell
+http://purl.obolibrary.org/obo/CLO_0000019 #immortal cell line cell
+http://purl.obolibrary.org/obo/CLO_0000096 #immortal macrophage cell line cell
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000000 #cell type
+
+http://purl.obolibrary.org/obo/CLO_0007003
+subClassOf http://purl.obolibrary.org/obo/CLO_0000096 #immortal macrophage cell line cell
+
+http://purl.obolibrary.org/obo/CLO_0009524
+subClassOf http://purl.obolibrary.org/obo/CLO_0000129 #immortal epithelial cell line cell
+
+http://purl.obolibrary.org/obo/CLO_0008753 
+subClassOf http://purl.obolibrary.org/obo/CLO_0000096 #immortal macrophage cell line cell
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
