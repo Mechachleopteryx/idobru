@@ -1,12 +1,12 @@
-# idobru
-IDOBRU: Brucellosis Ontology
+# IDOBRU
+IDOBRU: Community-based Brucellosis Ontology
 
 Brucellosis Ontology (IDOBRU) is an extension ontology of the Infectious Disease Ontology (IDO) with a focus on brucellosis, a zoonotic infectious disease caused by Brucella spp. 
 
 See the previous versions stored in Sourceforge:
 https://sourceforge.net/projects/idobru/
 
-### Citations
+### Citations: 
 
 Lin Y, Xiang Z, He Y. Brucellosis Ontology (IDOBRU) as an extension of the Infectious Disease Ontology. Journal of Biomedical Semantics. 2011 Oct 31;2(1):9. PMID: 22041276. PMCID: PMC3217896. 
 URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3217896/  
