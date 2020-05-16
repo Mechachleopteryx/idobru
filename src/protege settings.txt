@@ -8,7 +8,7 @@ End with: auto ID
 
 
 Auto ID
-Numeric(iterative) Start 1 End -1
+Numeric(iterative) Start 100001 End -1
 Digit count 7
-Prefix BO_
+Prefix IDO_
 Suffix

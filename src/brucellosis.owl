@@ -866,14 +866,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0002250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002250"/>
@@ -2302,10 +2294,10 @@ P76 Madkour, M. Monir, Brucellosis, 1989, ISBN 0-7236-9041-1</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/IDO_0100103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000453"/>
-        <obo:IAO_0000115 xml:lang="en">Brucellosis disposition that is the disposition to be transmitted from an infected, non-human host to a human host.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
-        <rdfs:label>brucellosis disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000452"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious disposition that is the disposition of Brucella to be transmitted to a host and establish a Brucella infectious disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL,Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>brucella infectious disposition</rdfs:label>
     </owl:Class>
     
 
@@ -3612,6 +3604,17 @@ Ref: EPIDEMIOLOGY AND EPIZOOTOLOGY OF BRUCELLOSIS: A REVIEW pvj.com.pk/pdf-files
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0100205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000453"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious disposition that is the disposition of Brucella to be transmitted from an infected non-human host to a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL, Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="ja">brucella zoonotic disposition</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0100390 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100390">
@@ -3982,8 +3985,8 @@ Ref: EPIDEMIOLOGY AND EPIZOOTOLOGY OF BRUCELLOSIS: A REVIEW pvj.com.pk/pdf-files
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100445">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000405"/>
-        <obo:IAO_0000115>a pathogen role of being a brucellosis pathogen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A pathogen role borne by Brucella bacterium when contained in a host in which its Brucella infectious disposition can be realized.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL, YH, Shane Babcock</obo:IAO_0000117>
         <rdfs:label>brucellosis pathogen role</rdfs:label>
     </owl:Class>
     
@@ -6430,7 +6433,7 @@ A well functioning disease surveillance system includes case detection and regis
         <obo:IAO_0000115>Ongoing, systematic collection, analysis, interpretation and dissemination of health-related data essential for public health practice (i.e. prevention and control of disease). Surveillance applies to both human and vetiranary diseases, may be general or sentinal, and may be  active or passive. Surveillance may be for health events (such as deaths or disease), health services (vaccinations, hospital admissions), health behaviors (smoking, alcohol), or even risk factors (water supply, travel).</obo:IAO_0000115>
         <dc:creator>Salwa Ali</dc:creator>
         <rdfs:comment>change to public health surveillance; need to add passive surveillance and active surveillance (YL 04/30/2020)</rdfs:comment>
-        <rdfs:label>Health Surveillance</rdfs:label>
+        <rdfs:label>Public Health Surveillance</rdfs:label>
         <rdfs:seeAlso>TeutschSM &amp; Churchill RE (eds). Principles and Practice of Public Health Surveillance, 2nded.Oxford University Press, 2000.</rdfs:seeAlso>
     </owl:Class>
     
@@ -6439,7 +6442,7 @@ A well functioning disease surveillance system includes case detection and regis
     <!-- http://purl.obolibrary.org/obo/IDO_0100707 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100707">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100706"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100654"/>
         <dc:creator>Salwa Ali</dc:creator>
         <rdfs:label>disease surveillance</rdfs:label>
     </owl:Class>
@@ -6621,7 +6624,7 @@ disease was recorded.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/IDO_0100721 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100721">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100707"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100722"/>
         <rdfs:label>animal disease surveillance</rdfs:label>
     </owl:Class>
     
