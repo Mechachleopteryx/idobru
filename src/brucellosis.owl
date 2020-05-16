@@ -3615,6 +3615,130 @@ Ref: EPIDEMIOLOGY AND EPIZOOTOLOGY OF BRUCELLOSIS: A REVIEW pvj.com.pk/pdf-files
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0100206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100722"/>
+        <rdfs:label xml:lang="ja">human infectious disease surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100723"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="en">camel brucellosis surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100723"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="ja">cat brucellosis surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100723"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="ja">dog brucellosis surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100723"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="ja">horse brucellosis surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100723"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="ja">sheep brucellosis surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100723"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="ja">goat brucellosis surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100723"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="ja">swine brucellosis surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100654"/>
+        <obo:IAO_0000115 xml:lang="en">a biosurveillance that is focus on the detection of bioterrorisim threats, such as the intentional release or dissemination of biological agents to cause public health hazard.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">temporarily in IDOBRU. Should be in other higher level ontology. [noted by YL on 5//16/2020]</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Bioterrorism</obo:IAO_0000119>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <rdfs:label xml:lang="ja">bioterrorism surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100706"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IDO_0100216"/>
+        <obo:IAO_0000115 xml:lang="en">A type of public health surevillance that is achieved by regular (daily, weekly, monthly, quartly or yearly) reporting of disease or any health related data by all institutions that see patients (or test specimens) and are part of a reporting network without active search for cases. It involves passive notification by surveillance sites and reports are generated and sent by local staff.  While reporting is required by law, there is no practical way of enforcing adherence, so disease frequency is under reported.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">temporarily in IDOBRU. Should be in other higher level ontology. [noted by YL on 5//16/2020]</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://sphweb.bumc.bu.edu/otlt/MPH-Modules/EP/EP713_Surveillance/EP713_Surveillance4.html</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.who.int/immunization/monitoring_surveillance/burden/vpd/surveillance_type/passive/en/</obo:IAO_0000119>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <rdfs:label xml:lang="ja">passive public health surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0100216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100706"/>
+        <obo:IAO_0000115 xml:lang="en">A public health surveillance that involves proactive actions including visiting health facilities, talking to health-care providers and reviewing medical records to identify suspected cases of disease or health conditions that is under surveillance. This method is usually used when a disease is targeted for eradication or elimination, when every possible case must be found and investigated. It is also used for outbreak investigations.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">temporarily in IDOBRU. Should be in other higher level ontology. [noted by YL on 5//16/2020]</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://sphweb.bumc.bu.edu/otlt/MPH-Modules/EP/EP713_Surveillance/EP713_Surveillance4.html</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.who.int/immunization/monitoring_surveillance/burden/vpd/surveillance_type/active/en/</obo:IAO_0000119>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <rdfs:label xml:lang="ja">active public health surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0100390 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100390">
@@ -5792,8 +5916,11 @@ geography-disease&gt;</dc:source>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100654">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100706"/>
-        <obo:IAO_0000115>Monitoring of information sources of potential value in detecting an emerging epidemic, whether naturally occurring or the result of bioterrorism.</obo:IAO_0000115>
-        <dc:creator>Salwa Ali</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a public health surveillance process of gathering, integrating, interpreting, and communicating essential information related to all-hazards threats or disease activity affecting human, animal, or plant health to achieve early detection and warning, contribute to overall situational awareness of the health aspects of an incident, and to enable better decision-making at all levels.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://obamawhitehouse.archives.gov/sites/default/files/National_Strategy_for_Biosurveillance_July_2012.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.sciencedirect.com/topics/medicine-and-dentistry/biosurveillance</obo:IAO_0000119>
+        <dc:creator>Salwa Ali, YL</dc:creator>
         <rdfs:label>biosurveillance</rdfs:label>
     </owl:Class>
     
@@ -5838,8 +5965,8 @@ geography-disease&gt;</dc:source>
     <!-- http://purl.obolibrary.org/obo/IDO_0100658 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100658">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100722"/>
-        <rdfs:label>brucellosis surveillance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100206"/>
+        <rdfs:label>human brucellosis surveillance</rdfs:label>
     </owl:Class>
     
 
@@ -6443,6 +6570,8 @@ A well functioning disease surveillance system includes case detection and regis
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100654"/>
+        <obo:IAO_0000115 xml:lang="en">a biosurveillance that focuses on diease outbreak and prevention.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <dc:creator>Salwa Ali</dc:creator>
         <rdfs:label>disease surveillance</rdfs:label>
     </owl:Class>
@@ -6592,7 +6721,7 @@ disease was recorded.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/IDO_0100718 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100718">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100706"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100654"/>
         <dc:creator>Salwa Ali</dc:creator>
         <rdfs:comment>Surveillance of certain health related behaviors i.e. smoking, alcohol or drug use. The Behavioral Risk Factor Surveillance System (BRFSS) is the world’s largest, on-going telephone health survey system, established by the CDC for tracking health conditions and risk behaviors in the United States yearly since 1984.</rdfs:comment>
         <rdfs:label>health behavior surveillance</rdfs:label>
@@ -6612,20 +6741,11 @@ disease was recorded.</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IDO_0100720 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100720">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100707"/>
-        <rdfs:label>human disease surveillance</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IDO_0100721 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100721">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100722"/>
-        <rdfs:label>animal disease surveillance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100707"/>
+        <rdfs:label>non infectious disease surveillance</rdfs:label>
     </owl:Class>
     
 
@@ -6642,8 +6762,9 @@ disease was recorded.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/IDO_0100723 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100723">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100707"/>
-        <rdfs:label>noninfectious disease surveillance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0100722"/>
+        <dc:creator xml:lang="en">YL, Shane Babcock</dc:creator>
+        <rdfs:label xml:lang="en">veterinary infectious disease surveillance</rdfs:label>
     </owl:Class>
     
 
